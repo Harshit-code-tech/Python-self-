@@ -1,0 +1,34 @@
+# Random Password Generator
+
+This is an advanced random password generator with a graphical user interface (GUI) developed in Python using Tkinter.
+
+## Installation
+
+1. Clone the repository:
+git clone https://github.com/your-username/random-password-generator.git
+
+2. Navigate to the project directory:
+
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+## Usage
+
+1. Run the main script:
+
+2. The graphical user interface will open.
+
+3. Enter the desired password length and click on the "Generate Password" button to generate a random password.
+
+4. Click on the "Copy to Clipboard" button to copy the generated password to the clipboard.
+
+5. Do check "https://pypi.org/project/pyperclip/"
+## Customization Options
+
+- **Password Length**: The default password length is 8 characters. You can customize it by modifying the `length` parameter in the `generate_password` method of the `PasswordGenerator` class in `password_generator.py`.
+- **Character Sets**: The password generator currently includes uppercase letters, lowercase letters, digits, and punctuation symbols. You can customize the character sets by modifying the `characters` variable in the `generate_password` method of the `PasswordGenerator` class in `password_generator.py`.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,9 @@
+Hello and welcome to how and what to do, and why to do read-me
+
+1.Install Python compiler(if don’t have) and use python idle or pycharm to run the code.(because even after progress is installed idk wt is going on but, directly opening is not working)s
+2.Warning it was made in Linux, so in Windows, user might find it bigger..for it to work fine on windows, go to settings-->system-->display, in display, reduce scale,(it is 150% recommended, reduce it to 100% for this program, it is reversible)
+3. After installing open cmd and install certain libraries
+pip install tkinter
+pip install progress
+    4.  After installing those from cmd , open “raksha_bandhan_quiz_overloaded.py”( not from vscode, just double click it. If you have vscode or python editor, and you by mistake saw the code and got fainted, it’s not my responsibility, anyway, you can run from inside too).
+    5. I had created more python file in practise but, it’s no use seeing but even if you want to, go ahead, i am not stopping, anyway, moving on, those are just my practise set, and ya, you are all set, and if any error you encounter, either ask online or ask AI to solve it, don’t disturb me, let me sleep.
