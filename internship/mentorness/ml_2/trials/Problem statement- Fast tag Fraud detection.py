@@ -31,7 +31,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 #%%
-df_fraud = pd.read_csv("D:\\Internship\Mentorness MIP-ML-06\\Project 1- Fact tag Fraud\\FastagFraudDetection.csv")
+df_fraud = pd.read_csv("D:\\Internship\Mentorness MIP-ML-06\\Project 1- Fact tag Fraud\\dataset.csv")
 #%%
 df_fraud.head()
 #%%
