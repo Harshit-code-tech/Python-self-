@@ -1,0 +1,9 @@
+k means cluster
+l2norm
+if any cluster has 0 centroids.. eliminate the cluster..or alternative is randomly reinitialize...
+what k means algorightm is doing is trying to find assignments of points of clusters centroids as well as find location of clusters centroids that minimizes the squared distance...
+the move cluster centroid in k means formula tries to minimize the distortion
+
+run multipel time to find best local optima for k value... in random initialization
+
+to choose best value of k we can use elbow method(altough not recommanded)

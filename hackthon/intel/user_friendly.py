@@ -45,7 +45,7 @@ user_data = pd.DataFrame({'PM2.5 AQI Value': [pm25],
                           'NO2 AQI Category': [default_no2_aqi_category],
                           'PM2.5 AQI Category': [default_pm25_aqi_category]})
 
-# Predict AQI using the model
+# Predict AQI using the models
 predicted_aqi = model.predict(user_data)[0]
 
 # Get the AQI category

@@ -1,0 +1,52 @@
+backpropagation
+vectorization
+sympy
+computing the derivatives...chain rule
+good practise to use cross validation.. whenever training model
+email routing
+mlops
+deepfakes
+measure the performance of model if it is biased or not
+develop  mitigation plan if applicable and after deployment monitor for possible harm.
+harmonic mean == avg but focus on lower side
+in entropy information gain measuers reduction in entropy that you gen from splitting a tree..because the entropy was originally 
+1) at the root note and by making the split, you end up with lower value of entropy and the difference in those values is a reduction in entropy
+
+why to reduction entropy... it helps avoid overfitting..
+using information gain and with the defination of entropy we can calculate the information gain associated with  choosing any particular feature to split on in the node ..choosing highest information gain will result in increase in purity of the subset of the data you got
+which help in  choosing the feature to split on that increase the purity  of your subset of data in decision tree
+
+if making decision tree from scratch..recursive algo is the thing we need to implement
+while increasing the size of tree.. use cross validation to check max depth and which is best
+
+when to stop splitting...if the information gained is less then certain threshold
+
+variance calculation for regression tree... how widely a set of number varies
+
+choosing a split for tree...check avg variance...it plays similar role to avg entropy..
+good split.. lowest variance....i.e largest reduction in variance...
+if there are 8.84,0.64,6.22/// with same variance at root node... we will select 8.84...as it gives largest reduction
+
+training a lots of decision tree we call ensemble of decision trees
+
+we can use decission tree not only in classification but also in regression
+
+decision tree is highly sensitive to small changes in data
+
+sample with replacement... decision tree...ensemble tree
+random forest..typical best is 64 or 128
+bagged decision tree..creation of ensemble tree..putting tree in virtual  bag
+for random fores.t. pick k feature out of allowed feature then those k feature choose the highest information gain...and use that k feature to use the split k = rootn
+xg boost...boosted decision tree..prevent overfitting... and has stop splitting 
+use delibrate practise method
+
+regression vs classification vs clustering
+
+decision tree vs neural networks
+
+Question 3
+
+What does sampling with replacement refer to?
+
+Drawing a sequence of examples where, when picking the next example, first replacing all previously drawn examples into the set we are picking from. 
+practise on worst part to make it better
