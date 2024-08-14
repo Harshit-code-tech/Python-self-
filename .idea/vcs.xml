@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/internship/mentorness/artificial intelligence/comment_generator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rakhi-2-" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/self_Practise_project/tenserflow practise" vcs="Git" />
   </component>
 </project>
